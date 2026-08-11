@@ -4,155 +4,156 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Résumé — Jonathan Haberer</title>
-<meta name="description" content="Résumé of Jonathan Haberer — automation engineer with deep AEC domain knowledge: structural design, disaster-recovery engineering management, and workflow automation.">
+<meta name="description" content="Résumé of Jonathan Haberer — Automation Engineer, AEC Systems.">
 <link rel="stylesheet" href="styles.css">
+<style>
+  .r-head { text-align: center; margin-bottom: 1.5rem; }
+  .r-head h1 { margin-bottom: 0.35rem; }
+  .r-contact { margin: 0.15rem 0; font-size: 0.9375rem; color: var(--muted); }
+  .r-headline { margin: 0.9rem 0 0; font-weight: 600; font-size: 1.125rem; }
+  .r-summary { margin: 0 0 1.75rem; }
+  .r-sec { font-family: inherit; font-size: 0.9375rem; font-weight: 700;
+           letter-spacing: 0.08em; border-bottom: 1px solid var(--rule);
+           padding-bottom: 0.3rem; margin: 1.75rem 0 0.75rem; }
+  .r-row { display: flex; justify-content: space-between; gap: 1rem;
+           align-items: baseline; margin-top: 0.9rem; }
+  .r-row .r-when { color: var(--muted); font-size: 0.9375rem; white-space: nowrap; }
+  .r-role { margin-top: 0.25rem; }
+  .r-role em { font-style: italic; }
+  ul.r-b { list-style-type: square; margin: 0.5rem 0 0; }
+  ul.r-b li { margin-bottom: 0.45rem; }
+  .r-nav { margin-bottom: 2rem; }
+  @media (max-width: 560px) { .r-row { flex-direction: column; gap: 0.1rem; } }
+  @media print { .r-nav, footer { display: none; } body { padding: 0.5rem; } }
+</style>
 </head>
 <body>
 
-<header class="masthead">
+<nav class="site-nav r-nav">
+  <a href="./">← Home</a>
+</nav>
+
+<header class="r-head">
   <h1>Jonathan Haberer</h1>
-  <p class="tagline">Automation Engineer — AEC Systems</p>
-  <p class="aside">Galveston, TX (open to remote) ·
-  <a href="mailto:jon@thehaberers.com">jon@thehaberers.com</a> ·
-  <a href="tel:+17134761994">(713) 476-1994</a><br>
-  <a href="https://github.com/jonathan-haberer">github.com/jonathan-haberer</a> ·
+  <p class="r-contact"><a href="mailto:jon@thehaberers.com">jon@thehaberers.com</a> ❖
+  <a href="tel:+17134761994">(713) 476-1994</a> ❖ Galveston, TX ❖ Open to Remote</p>
+  <p class="r-contact"><a href="https://github.com/jonathan-haberer">github.com/jonathan-haberer</a> ❖
+  <a href="https://jonathan-haberer.github.io">jonathan-haberer.github.io</a> ❖
   <a href="https://tryfirmark.com">tryfirmark.com</a></p>
-  <nav class="site-nav">
-    <a href="./">Home</a>
-    <a href="#experience">Experience</a>
-    <a href="#independent">Independent work</a>
-    <a href="#skills">Skills</a>
-    <a href="#education">Education</a>
-  </nav>
+  <p class="r-headline">Automation Engineer — AEC Systems</p>
 </header>
 
 <main>
 
-<section id="summary">
-  <h2>Summary</h2>
-  <p>Automation engineer with six years inside a production AEC firm. I embed with the
-  team doing the work, model how the workflow actually operates, then automate it end to
-  end. Promoted from junior drafter to Disaster Recovery Engineering Manager / Head of
-  R&amp;D in four years; the systems I built let a nine-person team carry statewide
-  disaster recovery programs at 100+ plans per day.</p>
-</section>
+<p class="r-summary">Automation engineer with six years inside a production AEC firm. I embed
+with the team doing the work, model how the workflow actually operates, then automate it end
+to end. Promoted from junior drafter to Disaster Recovery Engineering Manager / Head of R&amp;D
+in four years; the systems I built let a nine-person team carry statewide disaster recovery
+programs at 100+ plans per day.</p>
 
-<section id="experience">
-  <h2>Experience</h2>
-  <p><strong>Cobalt Engineering and Inspections</strong> — Houston, TX area ·
-  Aug 2020 – Present</p>
+<h2 class="r-sec">WORK EXPERIENCE</h2>
 
-  <h3>Disaster Recovery Engineering Manager / Head of R&amp;D
-  <span class="aside">· Sep 2024 – Present</span><br>
-  Disaster Recovery Engineering Manager
-  <span class="aside">· Aug 2023 – Sep 2024</span></h3>
-  <ul>
-    <li>Own engineering delivery for federally funded disaster recovery programs in
-    eight states — including Renew NC ($1.4B), LeeCares ($1.1B), Better Future
-    ($585.7M), Restore Louisiana, ReCoverCA, and Texas GLO — approving all engineering
-    and drafting output; program-facing lead with state recovery offices, including
-    governor's-office program validation.</li>
-    <li>Remain the working engineer on complex work: personally design and QC structural
-    packages for custom and restricted program homes — foundations, framing, and wind
-    design across coastal high-wind and flood jurisdictions — with final approval on
-    every plan the department ships.</li>
-    <li>Lead a distributed team of 7 engineers and drafters plus 2 managers; recent
-    intake of 300+ projects in two weeks on automation-carried capacity of 100+ program
-    homes/day.</li>
-    <li>Embedded 9 days with the survey/civil team, then built a C#/.NET plugin inside
-    Civil 3D with a five-layer OCR pipeline (Windows OCR, PaddleOCR, Tesseract, custom
-    assembly engine) for deed and plat extraction from documents dating to the 1900s —
-    parcel turnaround cut from ~2 weeks to ~1, standing backlog cleared, every
-    extraction emitted into an auditable RPLS review pack.</li>
-  </ul>
+<div class="r-row"><strong>Cobalt Engineering and Inspections</strong>
+<span class="r-when">August 2020 – Present</span></div>
 
-  <h3>Lead Structural Designer / Senior CAD Designer / PM
-  <span class="aside">· Mar 2022 – Aug 2023</span></h3>
-  <ul>
-    <li>Hands-on structural design lead for the portfolio's complex work: Tyndall AFB
-    recovery structures (hangars, communications facilities, bunker, vault) and
-    Schlitterbahn Galveston — design lead for the support structures of two tower
-    systems and six slides; oversaw final construction documents and code compliance
-    across jurisdictions.</li>
-    <li>Designed and shipped the client intake portal (React front end → Azure
-    microservice API gateway → QuickBase), replacing email-and-PDF intake; now on v4
-    serving 220+ client organizations and 16 internal staff with self-serve submission
-    of up to 10 projects per 5 minutes.</li>
-  </ul>
+<div class="r-row r-role"><em>Disaster Recovery Engineering Manager / Head of R&amp;D</em>
+<span class="r-when">Sep 2024 – Present</span></div>
+<div class="r-row r-role"><em>Disaster Recovery Engineering Manager</em>
+<span class="r-when">Aug 2023 – Sep 2024</span></div>
+<ul class="r-b">
+  <li>Own engineering delivery for federally funded disaster recovery programs in eight
+  states — including Renew NC ($1.4B), LeeCares ($1.1B), Better Future ($585.7M), Restore
+  Louisiana, ReCoverCA, and Texas GLO — approving all engineering and drafting output;
+  program-facing lead with state recovery offices, including governor's-office program
+  validation.</li>
+  <li>Remain the working engineer on complex work: personally design and QC structural
+  packages for custom and restricted program homes — foundations, framing, and wind design
+  across coastal high-wind and flood jurisdictions — with final approval on every plan the
+  department ships.</li>
+  <li>Lead a distributed team of 7 engineers and drafters plus 2 managers; recent intake of
+  300+ projects in two weeks on automation-carried capacity of 100+ program homes per
+  day.</li>
+  <li>Embedded 9 days with the survey/civil team, then built a C#/.NET plugin inside
+  Civil 3D with a five-layer OCR pipeline (Windows OCR, PaddleOCR, Tesseract, custom
+  assembly engine) for deed and plat extraction from documents dating to the 1900s — parcel
+  turnaround cut from ~2 weeks to ~1, standing backlog cleared, every extraction emitted
+  into an auditable RPLS review pack.</li>
+</ul>
 
-  <h3>Structural Designer / Engineering Technician / PM
-  <span class="aside">· Aug 2021 – Mar 2022</span></h3>
-  <ul>
-    <li>Designed residential and commercial structures end to end — complex foundation
-    and framing systems — with structural evaluations in RISA 3D, ClearCalcs, and
-    custom Excel tooling; on-site inspections and direct coordination with county
-    officials to expedite disaster rebuilds.</li>
-    <li>Sole developer of "Program Squared," a six-month build merging calculations with
-    CAD: AutoLISP, AutoCAD scripting, PowerShell, and batch under a Java runtime that
-    generates site-specific architectural and structural plan sets in 3–4 minutes
-    (vs ~2 hours manual) — pulling ASCE hazard data per address via GIS overlay so
-    member and sheathing selection is correct for every site, engineering rigor the
-    manual process skipped.</li>
-    <li>Took custom-plan throughput from ~2/month to ~20/month with no added
-    headcount.</li>
-  </ul>
+<div class="r-row r-role"><em>Lead Structural Designer / Senior CAD Designer / PM</em>
+<span class="r-when">Mar 2022 – Aug 2023</span></div>
+<ul class="r-b">
+  <li>Hands-on structural design lead for the portfolio's complex work: Tyndall AFB
+  recovery structures (hangars, communications facilities, bunker, vault) and Schlitterbahn
+  Galveston — design lead for the support structures of two tower systems and six slides;
+  oversaw final construction documents and code compliance across jurisdictions.</li>
+  <li>Designed and shipped the client intake portal (React front end → Azure microservice
+  API gateway → QuickBase), replacing email-and-PDF intake; now on v4 serving 220+ client
+  organizations and 16 internal staff with self-serve submission of up to 10 projects per
+  5 minutes.</li>
+</ul>
 
-  <h3>Structural Drafter / PM <span class="aside">· Nov 2020 – Aug 2021</span><br>
-  Junior Drafter / Structural Technician
-  <span class="aside">· Aug 2020 – Nov 2020</span></h3>
-  <ul>
-    <li>Drafted 100+ custom homes and 400+ Florida disaster-recovery homes; field work
-    including LiDAR scanning, ground-penetrating radar, and on-site drafting; compliance
-    for historical renovations and protected environments.</li>
-  </ul>
-</section>
+<div class="r-row r-role"><em>Structural Designer / Engineering Technician / PM</em>
+<span class="r-when">Aug 2021 – Mar 2022</span></div>
+<ul class="r-b">
+  <li>Designed residential and commercial structures end to end — complex foundation and
+  framing systems — with structural evaluations in RISA 3D, ClearCalcs, and custom Excel
+  tooling; on-site inspections and direct coordination with county officials to expedite
+  disaster rebuilds.</li>
+  <li>Sole developer of "Program Squared," a six-month build merging calculations with CAD:
+  AutoLISP, AutoCAD scripting, PowerShell, and batch under a Java runtime that generates
+  site-specific architectural and structural plan sets in 3–4 minutes (vs ~2 hours manual)
+  — pulling ASCE hazard data per address via GIS overlay so member and sheathing selection
+  is correct for every site, engineering rigor the manual process skipped.</li>
+  <li>Took custom-plan throughput from ~2/month to ~20/month with no added headcount.</li>
+</ul>
 
-<section id="independent">
-  <h2>Independent work</h2>
+<div class="r-row r-role"><em>Structural Drafter / PM | Junior Drafter / Structural
+Technician</em> <span class="r-when">Aug 2020 – Aug 2021</span></div>
+<ul class="r-b">
+  <li>Drafted 100+ custom homes and 400+ Florida disaster-recovery homes; field work
+  including LiDAR scanning, ground-penetrating radar, and on-site drafting; compliance for
+  historical renovations and protected environments.</li>
+</ul>
 
-  <h3>Firmark — Founder / sole engineer
-  <span class="aside">· 2023 – Present ·
-  <a href="https://tryfirmark.com">tryfirmark.com</a></span></h3>
-  <ul>
-    <li>Solo-built a browser-based CAD engine and structural calculation engine — live
-    demos at <a href="https://tryfirmark.com">tryfirmark.com</a> — plus a closed
-    automation engine that turns an architectural plan into calculations, bill of
-    materials, and PE-stampable plan sets in minutes with human approval gates at every
-    stage.</li>
-  </ul>
+<h2 class="r-sec">INDEPENDENT WORK</h2>
 
-  <h3>Region Proposal Networks for Utility Asset Detection
-  <span class="aside">· technical write-up (in progress)</span></h3>
-  <ul>
-    <li>Faster R-CNN / RPN analysis for pole-component detection: anchor strategy for
-    extreme aspect ratios, k-means anchor optimization, FPN tradeoffs, edge deployment
-    design, and a hands-on ResNet50 feature-map and region-proposal experiment.</li>
-  </ul>
-</section>
+<div class="r-row"><strong>Firmark — Founder / Sole Engineer</strong>
+<span class="r-when">2023 – Present</span></div>
+<ul class="r-b">
+  <li>Solo-built a browser-based CAD engine and structural calculation engine — live demos
+  at <a href="https://tryfirmark.com">tryfirmark.com</a> — plus a closed automation engine
+  that turns an architectural plan into calculations, bill of materials, and PE-stampable
+  plan sets in minutes with human approval gates at every stage.</li>
+</ul>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <dl class="tech">
-    <dt>Languages</dt><dd>C#, Python, Java, JavaScript, AutoLISP, PowerShell</dd>
-    <dt>Platforms / APIs</dt><dd>.NET, Civil 3D API, Revit API, Dynamo, Forge/APS,
-    BIM 360, Azure, QuickBase, Google Maps API</dd>
-    <dt>ML / CV</dt><dd>PyTorch, torchvision, Faster R-CNN/RPN, ResNet50, OpenCV,
-    Tesseract, PaddleOCR</dd>
-    <dt>Engineering / CAD</dt><dd>AutoCAD (2D/3D/Civil), Civil 3D, Revit, RISA 3D,
-    ClearCalcs, Bluebeam, Navisworks, SketchUp, SDS2 · LiDAR, GPR, structural
-    evaluation</dd>
-  </dl>
-</section>
+<div class="r-row"><strong>Region Proposal Networks for Utility Asset Detection</strong>
+<span class="r-when">technical write-up (in progress)</span></div>
+<ul class="r-b">
+  <li>Faster R-CNN / RPN analysis for pole-component detection: anchor strategy for extreme
+  aspect ratios, k-means anchor optimization, FPN tradeoffs, edge deployment design, and a
+  hands-on ResNet50 feature-map and region-proposal experiment.</li>
+</ul>
 
-<section id="education">
-  <h2>Education</h2>
-  <ul>
-    <li>San Jacinto College — Engineering coursework toward A.S. (completed all but one
-    semester); left to pursue full-time engineering and automation work.</li>
-    <li>A.S., General Studies — Clear Horizons Early College / San Jacinto College
-    South, 2017.</li>
-  </ul>
-</section>
+<h2 class="r-sec">SKILLS</h2>
+<ul class="r-b">
+  <li><strong>Languages:</strong> C#, Python, Java, JavaScript, AutoLISP, PowerShell</li>
+  <li><strong>Platforms &amp; APIs:</strong> .NET, Civil 3D API, Revit API, Dynamo,
+  Forge/APS, BIM 360, Azure, QuickBase, Google Maps API</li>
+  <li><strong>ML &amp; CV:</strong> PyTorch, torchvision, Faster R-CNN/RPN, ResNet50,
+  OpenCV, Tesseract, PaddleOCR</li>
+  <li><strong>Engineering &amp; CAD:</strong> AutoCAD (2D/3D/Civil), Civil 3D, Revit,
+  RISA 3D, ClearCalcs, Bluebeam, Navisworks, SketchUp, SDS2; LiDAR, GPR, structural
+  evaluation</li>
+</ul>
+
+<h2 class="r-sec">EDUCATION</h2>
+<ul class="r-b">
+  <li>San Jacinto College — Engineering coursework toward A.S. (completed all but one
+  semester); left to pursue full-time engineering and automation work.</li>
+  <li>A.S., General Studies — Clear Horizons Early College / San Jacinto College South,
+  2017.</li>
+</ul>
 
 </main>
 
