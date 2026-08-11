@@ -13,8 +13,8 @@
 
 body {
   margin: 0 auto;
-  padding: 3rem 1.25rem 4rem;
-  max-width: 46rem;
+  padding: 2.5rem 1.5rem 4rem;
+  max-width: 64rem;
   background: var(--paper);
   color: var(--ink);
   font: 400 1.0625rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -71,9 +71,10 @@ footer { border-top: 1px solid var(--rule); padding-top: 1.25rem; color: var(--m
 .r-contact { margin: 0.15rem 0; font-size: 0.9375rem; color: var(--muted); }
 .r-headline { margin: 0.9rem 0 0; font-weight: 600; font-size: 1.125rem; }
 .r-summary { margin: 0 0 1.75rem; }
-.r-sec { font-family: inherit; font-size: 0.9375rem; font-weight: 700;
-         letter-spacing: 0.08em; border-bottom: 1px solid var(--rule);
-         padding-bottom: 0.3rem; margin: 1.75rem 0 0.75rem; }
+.r-sec { font-family: inherit; font-size: 1rem; font-weight: 700;
+         letter-spacing: 0.08em; border-bottom: 2px solid var(--ink);
+         padding-bottom: 0.35rem; margin: 2.25rem 0 0.9rem; }
+.r-div { border-top: 1px solid var(--rule); margin-top: 1.5rem; padding-top: 1.1rem; }
 .r-row { display: flex; justify-content: space-between; gap: 1rem;
          align-items: baseline; margin-top: 0.9rem; }
 .r-row .r-when { color: var(--muted); font-size: 0.9375rem; white-space: nowrap; }
