@@ -64,3 +64,22 @@ footer { border-top: 1px solid var(--rule); padding-top: 1.25rem; color: var(--m
 }
 
 .demo-links a { font-weight: 600; }
+
+/* Résumé layout — the main page mirrors the PDF résumé's structure. */
+.r-head { text-align: center; margin-bottom: 1.5rem; }
+.r-head h1 { margin-bottom: 0.35rem; }
+.r-contact { margin: 0.15rem 0; font-size: 0.9375rem; color: var(--muted); }
+.r-headline { margin: 0.9rem 0 0; font-weight: 600; font-size: 1.125rem; }
+.r-summary { margin: 0 0 1.75rem; }
+.r-sec { font-family: inherit; font-size: 0.9375rem; font-weight: 700;
+         letter-spacing: 0.08em; border-bottom: 1px solid var(--rule);
+         padding-bottom: 0.3rem; margin: 1.75rem 0 0.75rem; }
+.r-row { display: flex; justify-content: space-between; gap: 1rem;
+         align-items: baseline; margin-top: 0.9rem; }
+.r-row .r-when { color: var(--muted); font-size: 0.9375rem; white-space: nowrap; }
+.r-role { margin-top: 0.25rem; }
+ul.r-b { list-style-type: square; margin: 0.5rem 0 0; }
+ul.r-b li { margin-bottom: 0.45rem; }
+.r-nav { margin-bottom: 2rem; }
+@media (max-width: 560px) { .r-row { flex-direction: column; gap: 0.1rem; } }
+@media print { .r-nav, footer { display: none; } body { padding: 0.5rem; } }
